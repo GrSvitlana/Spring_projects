@@ -1,0 +1,8 @@
+package org.telran.hw_delivery;
+
+public class SorterByName implements Sorter {
+    @Override
+    public void sortDetails() {
+        System.out.println("Sorting list by name");
+    }
+}
